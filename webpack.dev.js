@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'development',
   // 1
   // Use the src/index.js file as entry point to bundle it.
   // If the src/index.js file imports other JS files,

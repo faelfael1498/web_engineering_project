@@ -1,17 +1,31 @@
 function validateForm()  {
-   var u = document.getElementById("fname").value;
-   var p = document.getElementById("password").value;
+    var firstname = document.getElementById("fname").value;
+    var password = document.getElementById("password").value;
+    var lastname = document.getElementById("lname").value;
+    var email = document.getElementById("email").value;
+    var age = document.getElementById("age").value;
 
-   if(u== "") {
-       alert("Please enter your Username");
-       return false;
-   }
-   if(p == "") {
-       alert("Please enter you Password");
-       return false;
-   }
+    if(firstname== "") {
+        alert("Please enter your Firstname");
+        return false;
+    }
+    if(lastname== "") {
+        alert("Please enter your Lastname");
+        return false;
+    }
+    if(email== "") {
+        alert("Please enter your Email");
+        return false;
+    }
+    if(age== "") {
+        alert("Please enter your Age");
+        return false;
+    }
+    if(password == "") {
+        alert("Please enter you Password");
+        return false;
+    }
 
-   alert("Form filled correctly! Sending to the server...")
+    alert("Form filled correctly! Sending to the server...")
 
-   return true;
-}
+    return true;

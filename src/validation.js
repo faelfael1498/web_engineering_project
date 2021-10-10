@@ -29,3 +29,4 @@ function validateForm()  {
     alert("Form filled correctly! Sending to the server...")
 
     return true;
+}
